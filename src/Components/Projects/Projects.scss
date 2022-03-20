@@ -1,0 +1,57 @@
+@use "../../Assets/_variables.scss" as *;
+
+.projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: $grey;
+  box-sizing: border-box;
+
+  &__section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-tile {
+      width: 80%;
+      height: 600px;
+      justify-items: center;
+      align-content: space-around;
+      background-color: $red;
+      box-shadow: 20px 20px black;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      margin: auto;
+      position: relative;
+
+    }
+
+    &-blueLine {
+      width: 70%;
+      height: 6px;
+      background-color: $blue;
+      margin: 10px 0;
+    }
+  }
+
+  &__greeting {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $white;
+
+    &-title {
+      font-family: $headingFont;
+      font-size: 4em;
+      writing-mode: vertical-rl;
+      border-left: solid 2px $red;
+      padding: 5px;
+    }
+  }
+}
