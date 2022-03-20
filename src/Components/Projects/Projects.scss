@@ -17,7 +17,7 @@
 
     &-tile {
       width: 80%;
-      height: 600px;
+      height: 550px;
       justify-items: center;
       align-content: space-around;
       background-color: $red;
@@ -35,16 +35,31 @@
       align-self: center;
       justify-self: center;
       background-color: $white;
-      border: solid 25px $red;
+      border: solid 12px $black;
       height: 80%;
       width: 80%;
     }
 
+    &-popUp:before {
+      content: " ";
+      position: absolute;
+      z-index: 1;
+      top: -10px;
+      left: -10px;
+      right: -10px;
+      bottom: -10px;
+      border: 10px solid $red;
+    }
+
+
+
+
+
     &-blueLine {
       width: 70%;
-      height: 6px;
+      height: 12px;
       background-color: $blue;
-      margin: 10px 0;
+      margin: 10px 0 30px 0;
     }
   }
 
