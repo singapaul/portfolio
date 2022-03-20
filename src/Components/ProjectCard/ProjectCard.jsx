@@ -1,20 +1,11 @@
 import React from "react";
-import ProjectPopUp from "../ProjectPopUp/ProjectPopUp";
 import "./ProjectCard.scss";
 
-const ProjectCard = ({ props }) => {
+const ProjectCard = ({ props, onClick }) => {
   return (
-    <>
-      {true? (
-        <div className={`ProjectCard ProjectCard${props.id}`}>
-          <img src={props.image} alt="" className={`ProjectCard-image`} />
-        </div>
-      ) : (
-        <div>
-          <ProjectPopUp/>
-        </div>
-      )}
-    </>
+    <div onClick={onClick} className={`ProjectCard ProjectCard${props.id}`}>
+      <img src={props.image} alt="" className={`ProjectCard-image project${props.id}`} />
+    </div>
   );
 };
 

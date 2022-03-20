@@ -14,7 +14,7 @@ export const projectsData = [
 
   {
     id: 2,
-    title: "Brewdawg",
+    title: "Pinball",
     description: "A API based project to use APIs",
     github: "www.google.com",
     site: "www.google.com",
@@ -24,7 +24,7 @@ export const projectsData = [
 
   {
     id: 3,
-    title: "Brewdawg",
+    title: "Calculator",
     description: "A API based project to use APIs",
     github: "www.google.com",
     site: "www.google.com",
@@ -34,7 +34,7 @@ export const projectsData = [
 
   {
     id: 4,
-    title: "Brewdawg",
+    title: "Client Project",
     description: "A API based project to use APIs",
     github: "www.google.com",
     site: "www.google.com",
@@ -44,7 +44,7 @@ export const projectsData = [
 
   {
     id: 5,
-    title: "Brewdawg",
+    title: "API project",
     description: "A API based project to use APIs",
     github: "www.google.com",
     site: "www.google.com",
@@ -54,7 +54,7 @@ export const projectsData = [
 
   {
     id: 6,
-    title: "Brewdawg",
+    title: "Portfolio site",
     description: "A API based project to use APIs",
     github: "www.google.com",
     site: "www.google.com",
@@ -63,7 +63,7 @@ export const projectsData = [
   },
   {
     id: 7,
-    title: "Brewdawg",
+    title: "Machine learning thing",
     description: "A API based project to use APIs",
     github: "www.google.com",
     site: "www.google.com",

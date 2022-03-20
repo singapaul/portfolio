@@ -27,7 +27,17 @@
       grid-template-rows: repeat(3, 1fr);
       margin: auto;
       position: relative;
+    }
 
+    &-popUp {
+      position: absolute;
+      z-index: 1;
+      align-self: center;
+      justify-self: center;
+      background-color: $white;
+      border: solid 25px $red;
+      height: 80%;
+      width: 80%;
     }
 
     &-blueLine {
