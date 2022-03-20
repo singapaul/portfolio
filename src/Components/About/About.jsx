@@ -20,10 +20,9 @@ const About = () => {
         </div>
         <div className="about__content-text">
           <p className="about__content-text-tag">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque
-            sint velit harum perspiciatis ullam quo repellat. Suscipit
-            consectetur nisi dignissimos est consequuntur nesciunt cumque? Culpa
-            id velit fuga magni dolorum.
+            Hey, I’m Paul, I’m from Wales. I trained as a chemical engineer and
+            used to work in the drinks industry manufacturing coffee and scotch.
+            Now I work in tech, I love retro designs and bauhaus, which is why I’ve made this site in this style. In my spare time I love photography, b
           </p>
         </div>
       </div>
