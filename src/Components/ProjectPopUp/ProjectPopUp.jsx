@@ -21,22 +21,28 @@ const ProjectPopUp = ({ onClick, whichCard }) => {
           src={blackCross}
           alt=""
         />
-        <h1>{currentCard.title}</h1>
-        <p>{currentCard.description}</p>
-        <h2>The Stack</h2>
-        <div>
-          {currentCard.techStack.map((tech) => {
-            return <li>{tech}</li>;
-          })}
+
+        <div className="projectPopUp__details-desc">
+          <h1>{currentCard.title}</h1>
+          <p>{currentCard.description}</p>
         </div>
 
-        <div>
+        <div className="projectPopUp__details-links">
           <a target="_blank" href={currentCard.site} rel="noreferrer">
-            Demo
+            DEMO
           </a>
           <a target="_blank" href={currentCard.github} rel="noreferrer">
-            Code
+            {`CODE </>`}
           </a>
+        </div>
+
+        <div className="projectPopUp__details-stack">
+          <h2>The Stack</h2>
+          <div className="projectPopUp__details-stack-items">
+            {currentCard.techStack.map((tech) => {
+              return <p>{tech}</p>;
+            })}
+          </div>
         </div>
       </div>
     </div>

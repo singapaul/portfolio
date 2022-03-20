@@ -11,19 +11,21 @@
     width: 50%;
     height: 100%;
     overflow: hidden;
-   
 
     &-image {
       width: 100%;
       height: 100%;
       object-fit: cover;
-  
     }
   }
 
   &__details {
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
 
     &-blackcross {
       position: absolute;
@@ -32,6 +34,86 @@
       height: 30px;
       width: 30px;
       z-index: 1;
+    }
+
+    &-desc {
+      h1 {
+        margin-bottom: 10px;
+        font-family: $headingFont;
+        font-size: 1.5em;
+      }
+
+      p {
+        font-family: $bodyFont;
+        text-align: justify;
+        font-size: 0.9em;
+        margin-top: 20px;
+      }
+    }
+
+    &-links {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-around;
+      padding: 0 20px;
+
+      a {
+        text-decoration: none;
+        color: $black;
+        background-color: $red;
+        border: solid 3px $black;
+        padding: 5px 15px;
+        font-weight: 800;
+      }
+
+      a:hover {
+        color: white;
+      }
+    }
+
+    &-stack {
+      h2 {
+        font-size: 1.2em;
+        text-align: center;
+      }
+
+      &-items {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        text-align: center;
+        margin-top: 8px;
+        justify-items: center;
+       
+
+        p {
+          width: 100px;
+          border: solid 2px black;
+          font-family: $bodyFont;
+          font-size: 0.7em;
+          align-self: center;
+          height: 20px;
+          margin: 2px 0;
+        
+        }
+
+        p:hover {
+       background: $grey;
+        
+        }
+
+      }
+    }
+
+    h2 {
+      font-family: $headingFont;
+    }
+
+    li,
+    p {
+      font-family: $bodyFont;
     }
   }
 }

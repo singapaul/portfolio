@@ -40,19 +40,6 @@
       width: 80%;
     }
 
-    &-popUp:before {
-      content: " ";
-      position: absolute;
-      z-index: 1;
-      top: -10px;
-      left: -10px;
-      right: -10px;
-      bottom: -10px;
-      border: 10px solid $red;
-    }
-
-
-
 
 
     &-blueLine {
