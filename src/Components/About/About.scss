@@ -1,4 +1,58 @@
 @use "../../Assets/_variables.scss" as *;
 
-.About{min-height: 100vh;
-background-color: aqua;}
+.about {
+  min-height: 100vh;
+  background-color: $brown;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+
+  &__greeting {
+    width: 150px;
+    background-color: $white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -ms-writing-mode: tb-rl;
+    -webkit-writing-mode: vertical-tb;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+
+    &-title {
+      font-family: $headingFont;
+      font-size: 4em;
+      padding: 5px;
+      border-left: solid 2px $red;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+
+    &-graphic {
+    width: 50%;
+
+      &-img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &-text{
+      color: $white;
+      font-size: 2em;
+      font-family: $bodyFont;
+      text-align: justify;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      width: 50%;
+      margin: 40px;
+    }
+  }
+}
