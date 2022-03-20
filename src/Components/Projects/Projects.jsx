@@ -44,7 +44,7 @@ const Projects = () => {
         <div className="projects__section-blueLine"></div>
       </div>
       <div className="projects__greeting">
-        <h1 className="projects__greeting-title">Checkout my work</h1>
+        <h1 className="projects__greeting-title">Check out my work</h1>
       </div>
     </div>
   );
