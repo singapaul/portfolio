@@ -4,7 +4,7 @@ import aboutSVG from "../../Assets/Graphics/about.svg";
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <div className="about__greeting">
         <h1 className="about__greeting-title">
           About <strong>Me</strong>
@@ -20,9 +20,16 @@ const About = () => {
         </div>
         <div className="about__content-text">
           <p className="about__content-text-tag">
-            Hey, I’m Paul, I’m from Wales. I trained as a chemical engineer and
-            used to work in the drinks industry manufacturing coffee and scotch.
-            Now I work in tech, I love retro designs and bauhaus, which is why I’ve made this site in this style. In my spare time I love photography, b
+            Hi, I’m Paul and I'm a junior full stack software engineer. I
+            originally trained as a chemical engineer and started my career in
+            the drinks industry working as a supply chain engineer. It was
+            during this time that I discovered a passion for the visual side of
+            front end, the technical wonder of back end and an amazement for the
+            transformative ways in which technology can transform lives.
+            <br />
+            <br />
+            On the weekends you'll catch me sipping a coffee, stuck in a good
+            book or flying down the Welsh mountains on my bike!
           </p>
         </div>
       </div>
