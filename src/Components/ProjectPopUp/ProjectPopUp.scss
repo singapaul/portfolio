@@ -66,6 +66,7 @@
         border: solid 3px $black;
         padding: 5px 15px;
         font-weight: 800;
+
       }
 
       a:hover {
@@ -77,6 +78,7 @@
       h2 {
         font-size: 1.2em;
         text-align: center;
+        width: 100%;
       }
 
       &-items {
@@ -87,16 +89,19 @@
         text-align: center;
         margin-top: 8px;
         justify-items: center;
+        width: 100%;
        
 
         p {
-          width: 100px;
+          width: 70px;
           border: solid 2px black;
           font-family: $bodyFont;
-          font-size: 0.7em;
+          font-size: 0.5em;
           align-self: center;
           height: 20px;
           margin: 2px 0;
+          
+
         
         }
 

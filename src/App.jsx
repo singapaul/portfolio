@@ -1,4 +1,5 @@
 import "./App.scss";
+import About from "./Components/About/About";
 import LandingPage from "./Components/Landing-Page/LandingPage";
 import Navbar from "./Components/Nav/Navbar";
 import Projects from "./Components/Projects/Projects";
@@ -10,7 +11,7 @@ function App() {
       <Navbar />
       <LandingPage />
       <Projects />
-
+      <About/>
 
     </div>
   );
