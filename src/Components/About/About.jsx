@@ -25,7 +25,7 @@ const About = () => {
             the drinks industry working as a supply chain engineer. It was
             during this time that I discovered a passion for the visual side of
             front end, the technical wonder of back end and an amazement for the
-            transformative ways in which technology can transform lives.
+            transformative ways in which technology can change lives.
             <br />
             <br />
             On the weekends you'll catch me sipping a coffee, stuck in a good
