@@ -1,15 +1,18 @@
 import "./Contact.scss";
 import contact from "../../Assets/Graphics/contact.png";
-import aboutsvg from "../../Assets/Graphics/about.svg"
+import Contactform from "../../Components/Contactform/Contactform";
+import aboutsvg from "../../Assets/Graphics/about.svg";
 
 const Contact = () => {
   return (
     <div className="contact">
       <div className="contact__content">
         <div className="contact__content-graphic">
-          <img className = "contact__content-graphic-img" src={contact} alt="" />
+          <img className="contact__content-graphic-img" src={contact} alt="" />
         </div>
-        <div className="contact__content-form"></div>
+        <div className="contact__content-form">
+          <Contactform />
+        </div>
       </div>
 
       <div className="contact__greeting">

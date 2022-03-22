@@ -1,0 +1,51 @@
+@use "../../Assets/_variables.scss" as *;
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-color: $blue;
+
+  &__pair {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0 auto;
+    width: 75%;
+
+    label {
+      justify-self: flex-start;
+      width: 100%;
+      font-family: $headingFont;
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+
+    input {
+      width: 100%;
+      font-family: $bodyFont;
+      font-size: 1rem;
+    }
+
+    textarea {
+      width: 100%;
+      font-family: $bodyFont;
+      font-size: 1rem;
+    }
+  }
+
+  &__button {
+    font-size: 0.8em;
+    font-family: $headingFont;
+    background-color: $red;
+    color: $white;
+    width: 20%;
+    padding: 10px;
+    box-shadow: 5px 5px $black;
+  }
+}
