@@ -1,4 +1,3 @@
-import sample2 from "../../Assets/images/paul.jpeg";
 import morseCode from "../../Assets/images/morseCode.png";
 import brewdawg3 from "../../Assets/images/brewdawg3.png";
 import jscalc from "../../Assets/images/JScalc.png";

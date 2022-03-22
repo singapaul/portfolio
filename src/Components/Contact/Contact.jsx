@@ -1,7 +1,6 @@
 import "./Contact.scss";
 import contact from "../../Assets/Graphics/contact.png";
 import Contactform from "../../Components/Contactform/Contactform";
-import aboutsvg from "../../Assets/Graphics/about.svg";
 
 const Contact = () => {
   return (
