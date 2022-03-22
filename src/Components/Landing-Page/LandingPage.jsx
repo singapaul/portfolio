@@ -10,7 +10,9 @@ const LandingPage = () => {
           <p>👋 Hi, I'm...</p>
           <h1>Paul Hardman</h1>
           <h2>A Web Developer</h2>
-          <button><a href="#projects">VIEW MY WORK</a></button>
+          <a href="#projects">
+            <button>VIEW MY WORK</button>
+          </a>
         </div>
         <div className="landingPage__landingGraphic">
           <img src={landingSVG} alt="" />
