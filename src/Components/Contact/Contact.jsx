@@ -18,7 +18,7 @@ const Contact = () => {
           <img className="contact__content-graphic-img" src={contact} alt="" />
         </div>
         <div className="contact__content-form">
-          {showForm ? <Contactform /> : <ContactFormCover onClick = {handleClick} />}
+          {false ? <Contactform /> : <ContactFormCover onClick = {handleClick} />}
         </div>
       </div>
 

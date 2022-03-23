@@ -15,17 +15,19 @@
     font-size: 5rem;
     color: $white;
 
-    span{
-      border-bottom: 5px solid $white;
-      padding-bottom: 3px;
+    span {
+      a {
+        color: $white;
+        text-decoration: none;
+        border-bottom: 5px solid $white;
+        padding-bottom: 3px;
+      }
+
+      a:hover {
+        color: $black;
+        text-decoration: none;
+        border-bottom: 5px solid $black;
+      }
     }
-
-    span:hover{
-      color: black;
-      border-bottom: 5px solid $black;
-      cursor: pointer;
-    }
-
-
   }
 }
