@@ -1,8 +1,16 @@
 import "./Contact.scss";
 import contact from "../../Assets/Graphics/contact.png";
 import Contactform from "../../Components/Contactform/Contactform";
+import ContactFormCover from "../ContactFormCover/ContactFormCover";
+import { useState } from "react";
 
 const Contact = () => {
+  const [showForm, setShowForm] = useState(false);
+
+  const handleClick = () => {
+    setShowForm(true);
+  };
+
   return (
     <div className="contact">
       <div className="contact__content">
@@ -10,7 +18,7 @@ const Contact = () => {
           <img className="contact__content-graphic-img" src={contact} alt="" />
         </div>
         <div className="contact__content-form">
-          <Contactform />
+          {showForm ? <Contactform /> : <ContactFormCover onClick = {handleClick} />}
         </div>
       </div>
 
