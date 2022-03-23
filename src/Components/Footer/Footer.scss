@@ -33,4 +33,17 @@
       margin: 0 3%;
     }
   }
+
+  .Footer__links a:nth-child(1):hover{
+    color: $red;
+  }
+
+  .Footer__links a:nth-child(2):hover{
+    color: $blue;
+  }
+
+  .Footer__links a:nth-child(3):hover{
+    color: $green;
+  }
+
 }
