@@ -13,7 +13,7 @@ const LandingPage = () => {
       backDelay: 1200,
       startDelay: 500,
       backSpeed: 100,
-      strings: ["Software Engineer", "Bauhaus lover extordanaire", "Web Developer", "Street Photographer", "Tech blogger", "Bauhaus lover extordanaire"],
+      strings: ["Software Engineer", "Design fanatic", "Web Developer", "Street Photographer", "Tech blogger", "Bauhaus lover"],
     });
   }, []);
 
