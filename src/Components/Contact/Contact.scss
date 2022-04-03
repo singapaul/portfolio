@@ -11,7 +11,6 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-   
 
     &-title {
       font-family: $headingFont;
@@ -27,7 +26,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-   
 
     &-graphic {
       width: 60%;
@@ -39,6 +37,7 @@
       }
     }
 
+   
     &-form {
       color: $white;
       font-size: 1.5em;
@@ -51,7 +50,7 @@
       margin: 70px;
       height: 80%;
       box-shadow: 10px 10px $black;
-      offset-position: bottom 10px right 20px;
+      // offset-position: bottom 10px right 20px;
     }
   }
 }
@@ -81,7 +80,6 @@
         &-img {
           width: 100%;
           height: 100%;
-          
         }
       }
 
