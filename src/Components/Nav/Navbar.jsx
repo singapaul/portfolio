@@ -32,6 +32,9 @@ const Navbar = () => {
       <a className="navbar__links-sectionLink" href="#contact">
         Timeline
       </a>
+      <a className="navbar__links-sectionLink" href="#contact">
+        Photography
+      </a>
     </ul>
   );
 
@@ -52,6 +55,9 @@ const Navbar = () => {
       </a>
       <a className="navbar__links-sectionLink" href="#contact" onClick={handleClick}>
         Timeline
+      </a>
+      <a className="navbar__links-sectionLink" href="#contact" onClick={handleClick}>
+        Photography
       </a>
     </ul>
   );

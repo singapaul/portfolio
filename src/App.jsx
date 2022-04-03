@@ -19,9 +19,9 @@ function App() {
             element={
               <>
                 <LandingPage />
-                {/* <Projects />
+                <Projects />
                 <About />
-                <Contact /> */}
+                <Contact />
               </>
             }
           />
