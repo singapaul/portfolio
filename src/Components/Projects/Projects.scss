@@ -58,7 +58,7 @@
 
     &-title {
       font-family: $headingFont;
-      font-size: 2em;
+      font-size: $mobile-heading;
       padding: 2px;
       margin-bottom: 10px;
       border-bottom: solid 2px $red;

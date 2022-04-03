@@ -1,24 +1,37 @@
 @use "../../Assets/_variables.scss" as *;
 
 .contact {
-  height: 100vh;
-  background-color: $green;
-  width: 100%;
   display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
+  flex-direction: column-reverse;
   border-top: $border-height solid $black;
 
-  &__content {
+  &__greeting {
+    background-color: $white;
     display: flex;
-    flex: 1;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+
+    &-title {
+      font-family: $headingFont;
+      font-size: $mobile-heading;
+      padding: 5px;
+      border-bottom: solid 2px $red;
+    }
+  }
+
+  &__content {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    padding: 30px;
+   
 
     &-graphic {
-      width: 25%;
+      width: 70%;
+      background-color: $white;
 
       &-img {
         width: 100%;
@@ -34,26 +47,74 @@
       display: flex;
       justify-content: center;
       align-content: center;
-      width: 50%;
+      width: 90%;
       margin: 70px;
       height: 80%;
       box-shadow: 10px 10px $black;
+      offset-position: bottom 10px right 20px;
     }
   }
+}
 
-  &__greeting {
-    width: 150px;
-    background-color: $white;
+@media screen and (min-width: $desktop-breakpoint) {
+  .contact {
+    height: 100vh;
+    background-color: $green;
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    writing-mode: vertical-lr;
+    flex-direction: row;
+    box-sizing: border-box;
+    border-top: $border-height solid $black;
 
-    &-title {
-      font-family: $headingFont;
-      font-size: 4em;
-      padding: 5px;
-      border-left: solid 2px $red;
+    &__content {
+      display: flex;
+      flex: 1;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px;
+
+      &-graphic {
+        width: 25%;
+        background-color: $green;
+
+        &-img {
+          width: 100%;
+          height: 100%;
+          
+        }
+      }
+
+      &-form {
+        color: $white;
+        font-size: 1.5em;
+        font-family: $bodyFont;
+        text-align: justify;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
+        margin: 70px;
+        height: 80%;
+        box-shadow: 10px 10px $black;
+      }
+    }
+
+    &__greeting {
+      width: 150px;
+      background-color: $white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      writing-mode: vertical-lr;
+
+      &-title {
+        font-family: $headingFont;
+        font-size: 4em;
+        padding: 5px;
+        border-left: solid 2px $red;
+        border-bottom: 0;
+      }
     }
   }
 }
