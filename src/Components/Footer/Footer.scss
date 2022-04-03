@@ -11,11 +11,7 @@
   border-top: $border-height solid $black;
 
   &__message {
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-family: $headingFont;
-    padding: 0 5%;
-    color: $black;
+    display: none;
   }
 
   &__links {
@@ -23,27 +19,68 @@
     font-family: $headingFont;
     padding: 0 5%;
     white-space: nowrap;
-    margin-right: 5%;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    width: 100%;
 
     &-sectionLink {
       display: inline;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
       text-decoration: none;
       color: $black;
       margin: 0 3%;
     }
   }
+}
 
-  .Footer__links a:nth-child(1):hover{
-    color: $red;
+@media screen and (min-width: $desktop-breakpoint) {
+  .Footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    grid-area: 1/-1;
+    height: 10vh;
+    border-top: $border-height solid $black;
+
+    &__message {
+      display: flex;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-family: $headingFont;
+      padding: 0 5%;
+      color: $black;
+    }
+
+    &__links {
+      list-style: none;
+      font-family: $headingFont;
+      padding: 0 5%;
+      white-space: nowrap;
+      margin-right: 5%;
+      width:auto;
+
+      &-sectionLink {
+        display: inline;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: $black;
+        margin: 0 3%;
+      }
+    }
+
+    .Footer__links a:nth-child(1):hover {
+      color: $red;
+    }
+
+    .Footer__links a:nth-child(2):hover {
+      color: $blue;
+    }
+
+    .Footer__links a:nth-child(3):hover {
+      color: $green;
+    }
   }
-
-  .Footer__links a:nth-child(2):hover{
-    color: $blue;
-  }
-
-  .Footer__links a:nth-child(3):hover{
-    color: $green;
-  }
-
 }

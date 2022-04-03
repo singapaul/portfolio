@@ -29,7 +29,7 @@ const Navbar = () => {
       <a className="navbar__links-sectionLink" href="#contact">
         Contact
       </a>
-      <a className="navbar__links-sectionLink" href="#contact">
+      <a className="navbar__links-sectionLink" href="timeline">
         Timeline
       </a>
       <a className="navbar__links-sectionLink" href="#contact">
@@ -53,7 +53,7 @@ const Navbar = () => {
       <a className="navbar__links-sectionLink" href="#contact" onClick={handleClick}>
         Contact
       </a>
-      <a className="navbar__links-sectionLink" href="#contact" onClick={handleClick}>
+      <a className="navbar__links-sectionLink" href="timeline" onClick={handleClick}>
         Timeline
       </a>
       <a className="navbar__links-sectionLink" href="#contact" onClick={handleClick}>
@@ -66,7 +66,7 @@ const Navbar = () => {
     <>
       <div className={navbarClass}>
         <div className="navbar__container">
-          <a href="#Home" className="navbar__container-icon">
+          <a href="/portfolio" className="navbar__container-icon">
             PH
           </a>
           {windowIsDesktop ? (

@@ -12,7 +12,7 @@ const Timeline = () => {
   return (
     <>
       <VerticalTimeline className={"timeline"} lineColor={ "black" }>
-        <VerticalTimelineElement
+      <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
@@ -20,39 +20,75 @@ const Timeline = () => {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<img src={test2} alt="" />}
         >
-          <h3 className="vertical-timeline-element-title">Creative Director</h3>
-          <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+          <h3 className="vertical-timeline-element-title">Trainee Full Stack Developer, nology</h3>
+          <h4 className="vertical-timeline-element-subtitle">Remote</h4>
           <p>
-            Creative Direction, User Experience, Visual Design, Project
-            Management, Team Leading
+            Currently working as a nology full stack developer consultance. Stack includes React and Java.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2010 - 2011"
-          iconStyle={{ background: "white", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          date="2021"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<img src={test2} alt="" />}
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
+          <h3 className="vertical-timeline-element-title">Manufacturing Excellence Lead, Diageo</h3>
+          <h4 className="vertical-timeline-element-subtitle">Global</h4>
+          <p>
+            Responsible for change management and strategy development for Scotch sites globally
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="Sep 2020 - Aug 2021"
+          
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        >
+          <h3 className="vertical-timeline-element-title">Supply Planner, Diageo</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            San Francisco, CA
+            Budapest, Hunagry
           </h4>
           <p>
-            Creative Direction, User Experience, Visual Design, SEO, Online
-            Marketing
+            Supply chain planner for international export to Africa markets.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="2008 - 2010"
+          date="Sep 2019 - Aug 2020"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           // icon={<WorkIcon />}
         >
-          <h3 className="vertical-timeline-element-title">Web Designer</h3>
+          <h3 className="vertical-timeline-element-title">Commercial Operations Analyst, Diageo</h3>
           <h4 className="vertical-timeline-element-subtitle">
-            Los Angeles, CA
+            Budapest, Hungary
           </h4>
-          <p>User Experience, Visual Design</p>
+          <p>Analysis of CRM data to support improvements in operational cash performance</p>
         </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date="Sept 2014 - July 2019"
+          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          // icon={<SchoolIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            MEng Chemical Engineering 1st Class, University of Birmingham
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">
+            Masters Degree
+          </h4>
+          <p>Teamwork, fluid thinking and problem solving</p>
+        </VerticalTimelineElement>
+
+
+
+
+
+
+
+
+
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="2006 - 2008"

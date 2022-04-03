@@ -29,14 +29,12 @@ function App() {
             path="/portfolio/timeline"
             element={
               <>
-                <About />
-                <Timeline/>
-                <About />
+                <Timeline />
               </>
             }
           />
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </Router>
   );
