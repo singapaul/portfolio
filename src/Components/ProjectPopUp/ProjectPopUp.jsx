@@ -2,8 +2,11 @@ import "./ProjectPopUp.scss";
 import React from "react";
 import { projectsData } from "../../Assets/Data/projectsData";
 
+
 const ProjectPopUp = ({ onClick, whichCard }) => {
   const currentCard = projectsData[whichCard];
+
+
   return (
     <div className="projectPopUp">
       <div className="projectPopUp__imageHolder">
@@ -17,12 +20,10 @@ const ProjectPopUp = ({ onClick, whichCard }) => {
         <button onClick={onClick} class="projectPopUp__details-blackcross">
           X
         </button>
-
         <div className="projectPopUp__details-desc">
           <h1>{currentCard.title}</h1>
           <p>{currentCard.description}</p>
         </div>
-
         <div className="projectPopUp__details-links">
           <a target="_blank" href={currentCard.site} rel="noreferrer">
             DEMO
@@ -31,7 +32,6 @@ const ProjectPopUp = ({ onClick, whichCard }) => {
             {`CODE </>`}
           </a>
         </div>
-
         <div className="projectPopUp__details-stack">
           <h2>The Stack</h2>
           <div className="projectPopUp__details-stack-items">
@@ -41,6 +41,7 @@ const ProjectPopUp = ({ onClick, whichCard }) => {
           </div>
         </div>
       </div>
+  
     </div>
   );
 };

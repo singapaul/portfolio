@@ -7,6 +7,7 @@ import ProjectPopUp from "../ProjectPopUp/ProjectPopUp";
 const Projects = () => {
   const [showCard, setShowCard] = useState(false);
   const [whichCard, setWhichCard] = useState();
+  
 
   let currentProj;
   const handleOpenCard = (event) => {
@@ -18,6 +19,7 @@ const Projects = () => {
 
   return (
     <div id="projects" className="projects">
+   {showCard&& <div className="filler"></div>}
       <div className="projects__section">
         <div className="projects__section-tile">
           {projectsData.map((project) => {
@@ -29,6 +31,7 @@ const Projects = () => {
               />
             );
           })}
+
           {showCard && (
             <ProjectPopUp whichCard={whichCard} onClick={handleOpenCard} />
           )}
