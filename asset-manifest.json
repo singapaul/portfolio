@@ -1,14 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.3072395e.css",
-    "main.js": "/portfolio/static/js/main.8f89be5e.js",
+    "main.js": "/portfolio/static/js/main.23686768.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/tickets.png": "/portfolio/static/media/tickets.7ca754f11e042b67ba24.png",
     "static/media/brewdawg3.png": "/portfolio/static/media/brewdawg3.80c3c94a81344b56858e.png",
     "static/media/JScalc.png": "/portfolio/static/media/JScalc.438932860b5ad11e52e9.png",
     "static/media/tetris.png": "/portfolio/static/media/tetris.51bd6ff9aeb0555cf044.png",
     "static/media/morseCode.png": "/portfolio/static/media/morseCode.c9bb4a36d1de9d6227d8.png",
-    "static/media/paul.jpeg": "/portfolio/static/media/paul.612df0566153be8ea8f7.jpeg",
     "static/media/positivepup.png": "/portfolio/static/media/positivepup.43daec61799fd3cad0b5.png",
     "static/media/contact.png": "/portfolio/static/media/contact.80406b8564ce0b3682fd.png",
     "static/media/landing.svg": "/portfolio/static/media/landing.335bfa1411ac232b3570dbd55fc4889a.svg",
@@ -16,11 +15,11 @@
     "static/media/about.svg": "/portfolio/static/media/about.4f3eb36ec46885689e5e989e8d8dd883.svg",
     "static/media/hamburger-menu.svg": "/portfolio/static/media/hamburger-menu.282efe67ddd1e22bcb10adac968693b3.svg",
     "main.3072395e.css.map": "/portfolio/static/css/main.3072395e.css.map",
-    "main.8f89be5e.js.map": "/portfolio/static/js/main.8f89be5e.js.map",
+    "main.23686768.js.map": "/portfolio/static/js/main.23686768.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3072395e.css",
-    "static/js/main.8f89be5e.js"
+    "static/js/main.23686768.js"
   ]
 }
