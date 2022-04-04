@@ -100,6 +100,7 @@
     &-stack {
       grid-area: 2/1/3/2;
       margin: auto 0;
+      // grid-template-columns: repeat(auto-fit, minmax(69px, 70px));
 
       h2 {
         font-size: 1.2em;
@@ -107,6 +108,7 @@
       }
 
       &-items {
+        grid-template-columns: repeat(auto-fit, minmax(69px, 70px));
         padding: 5px 0;
         p:hover {
           background: $grey;
@@ -188,14 +190,18 @@
     justify-self: center;
     background-color: $white;
     border: solid 12px $black;
-    height: 80%;
-    width: 80%;
+    height: 90%;
+    width: 90%;
+    display: flex;
+    flex-direction:row;
+    border: solid black $border-height;
 
     &__imageHolder {
       width: 50%;
       height: 100%;
       overflow: hidden;
-      border-right: solid 10px black;
+      border-right: solid $border-height black;
+      border-top: none;
 
       &-image {
         width: 100%;
@@ -258,30 +264,35 @@
       }
 
       &-stack {
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+        align-content: center;
+        width: 100%;
+
         h2 {
           font-size: 1.2em;
           text-align: center;
           width: 100%;
+          margin-bottom: 10px;
         }
 
         &-items {
           list-style: none;
           display: grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          grid-template-rows: 1fr 1fr;
-          text-align: center;
-          margin-top: 8px;
-          justify-items: center;
-          width: 100%;
+          grid-template-columns: repeat(auto-fit, minmax(69px, 70px));
+          gap:10px;
+          justify-content: center;
+        
 
           p {
             width: 70px;
-            border: solid 2px black;
             font-family: $bodyFont;
-            font-size: 0.5em;
+            font-size: 1rem;
             align-self: center;
             height: 20px;
             margin: 2px 0;
+            text-align:center;
           }
 
           p:hover {

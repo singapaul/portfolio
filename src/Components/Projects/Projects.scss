@@ -1,8 +1,6 @@
 @use "../../Assets/_variables.scss" as *;
 
 .filler {
-  // height: 100%;
-  // width: 100%;
   background-color: rgba(black, 0.8);
   position: fixed;
   top: 0;
@@ -10,10 +8,6 @@
   right: 0;
   bottom: 0;
   z-index: 2;
-  // maybe delete
-  overflow: hidden;
-  height: 100vh;
-  overflow-y: hidden;
 }
 .projects {
   min-height: 100vh;

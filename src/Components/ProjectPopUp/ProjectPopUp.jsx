@@ -29,7 +29,7 @@ const ProjectPopUp = ({ onClick, whichCard }) => {
             DEMO
           </a>
           <a target="_blank" href={currentCard.github} rel="noreferrer">
-            {`CODE </>`}
+            {`CODE  </>`}
           </a>
         </div>
         <div className="projectPopUp__details-stack">
