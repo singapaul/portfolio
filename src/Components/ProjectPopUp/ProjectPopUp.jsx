@@ -15,12 +15,15 @@ const ProjectPopUp = ({ onClick, whichCard }) => {
         />
       </div>
       <div className="projectPopUp__details">
-        <img
+        {/* <img
           onClick={onClick}
           class="projectPopUp__details-blackcross"
           src={blackCross}
           alt=""
-        />
+        /> */}
+        <button onClick={onClick} class="projectPopUp__details-blackcross">
+          X
+        </button>
 
         <div className="projectPopUp__details-desc">
           <h1>{currentCard.title}</h1>

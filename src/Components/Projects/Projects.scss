@@ -30,17 +30,6 @@
       position: relative;
     }
 
-    &-popUp {
-      position: absolute;
-      z-index: 1;
-      align-self: center;
-      justify-self: center;
-      background-color: $white;
-      border: solid 12px $black;
-      height: 80%;
-      width: 80%;
-    }
-
     &-blueLine {
       width: 70%;
       height: 12px;

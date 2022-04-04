@@ -13,9 +13,8 @@ const Projects = () => {
     setShowCard(!showCard);
     currentProj = event.target.className.slice(-1) - 1;
     // sets to the index
-   setWhichCard(currentProj)
+    setWhichCard(currentProj);
   };
-
 
   return (
     <div id="projects" className="projects">
@@ -31,14 +30,7 @@ const Projects = () => {
             );
           })}
           {showCard && (
-            <div className="projects__section-popUp">
-              {/* The props we pass in here needs to match the id number of the event */}
-
-              <ProjectPopUp
-                whichCard = {whichCard}
-                onClick={handleOpenCard}
-              />
-            </div>
+            <ProjectPopUp whichCard={whichCard} onClick={handleOpenCard} />
           )}
         </div>
         <div className="projects__section-blueLine"></div>
