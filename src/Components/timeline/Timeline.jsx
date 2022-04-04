@@ -3,8 +3,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import test from "../../Assets/images/paul.jpeg"
-import test2 from "../../Assets/Graphics/black-cross.png";
+// import test from "../../Assets/images/paul.jpeg"
+// import test2 from "../../Assets/Graphics/black-cross.png";
 
 
 
@@ -18,7 +18,7 @@ const Timeline = () => {
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="2011 - present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<img src={test2} alt="" />}
+          // icon={<img src={test2} alt="" />}
         >
           <h3 className="vertical-timeline-element-title">Trainee Full Stack Developer, nology</h3>
           <h4 className="vertical-timeline-element-subtitle">Remote</h4>
@@ -31,7 +31,7 @@ const Timeline = () => {
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="2021"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<img src={test2} alt="" />}
+          // icon={<img src={test2} alt="" />}
         >
           <h3 className="vertical-timeline-element-title">Manufacturing Excellence Lead, Diageo</h3>
           <h4 className="vertical-timeline-element-subtitle">Global</h4>

@@ -2,13 +2,13 @@ import "./Contact.scss";
 import contact from "../../Assets/Graphics/contact.png";
 import Contactform from "../../Components/Contactform/Contactform";
 import ContactFormCover from "../ContactFormCover/ContactFormCover";
-import { useState } from "react";
+// import { useState } from "react";
 
 const Contact = () => {
-  const [showForm, setShowForm] = useState(false);
+  // const [showForm, setShowForm] = useState(false);
 
   const handleClick = () => {
-    setShowForm(true);
+    return (true);
   };
 
   return (
