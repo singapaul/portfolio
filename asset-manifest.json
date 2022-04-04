@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3072395e.css",
+    "main.css": "/portfolio/static/css/main.180ad071.css",
     "main.js": "/portfolio/static/js/main.23686768.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/tickets.png": "/portfolio/static/media/tickets.7ca754f11e042b67ba24.png",
@@ -14,12 +14,12 @@
     "index.html": "/portfolio/index.html",
     "static/media/about.svg": "/portfolio/static/media/about.4f3eb36ec46885689e5e989e8d8dd883.svg",
     "static/media/hamburger-menu.svg": "/portfolio/static/media/hamburger-menu.282efe67ddd1e22bcb10adac968693b3.svg",
-    "main.3072395e.css.map": "/portfolio/static/css/main.3072395e.css.map",
+    "main.180ad071.css.map": "/portfolio/static/css/main.180ad071.css.map",
     "main.23686768.js.map": "/portfolio/static/js/main.23686768.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3072395e.css",
+    "static/css/main.180ad071.css",
     "static/js/main.23686768.js"
   ]
 }
