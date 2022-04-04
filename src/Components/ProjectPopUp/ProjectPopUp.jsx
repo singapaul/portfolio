@@ -1,5 +1,4 @@
 import "./ProjectPopUp.scss";
-import blackCross from "../../Assets/Graphics/black-cross.png";
 import React from "react";
 import { projectsData } from "../../Assets/Data/projectsData";
 
@@ -15,12 +14,6 @@ const ProjectPopUp = ({ onClick, whichCard }) => {
         />
       </div>
       <div className="projectPopUp__details">
-        {/* <img
-          onClick={onClick}
-          class="projectPopUp__details-blackcross"
-          src={blackCross}
-          alt=""
-        /> */}
         <button onClick={onClick} class="projectPopUp__details-blackcross">
           X
         </button>
