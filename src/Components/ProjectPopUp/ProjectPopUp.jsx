@@ -36,7 +36,7 @@ const ProjectPopUp = ({ onClick, whichCard }) => {
           <h2>The Stack</h2>
           <div className="projectPopUp__details-stack-items">
             {currentCard.techStack.map((tech) => {
-              return <p>{tech}</p>;
+              return <img src={tech} alt="" />;
             })}
           </div>
         </div>
