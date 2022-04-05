@@ -51,15 +51,15 @@ const Navbar = () => {
       >
         Timeline
       </Link>
-      <Link
-        to="https://www.instagram.com/perspectivesfrompaul/"
+      <a
         className="navbar__links-sectionLink"
         target="_blank"
-        rel="noopener noreferrer"
         onClick={handleClick}
+        href="https://www.instagram.com/perspectivesfrompaul/"
+        rel="noreferrer"
       >
         Photography
-      </Link>
+      </a>
     </ul>
   );
 
@@ -105,15 +105,15 @@ const Navbar = () => {
       >
         Timeline
       </Link>
-      <Link
-        to="https://www.instagram.com/perspectivesfrompaul/"
+      <a
         className="navbar__links-sectionLink"
         target="_blank"
-        rel="noopener noreferrer"
         onClick={handleClick}
+        href="https://www.instagram.com/perspectivesfrompaul/"
+        rel="noreferrer"
       >
         Photography
-      </Link>
+      </a>
     </ul>
   );
 
