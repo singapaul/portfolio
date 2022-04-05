@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.scss";
 import aboutSVG from "../../Assets/Graphics/about.svg";
+import { HashLink as Link } from "react-router-hash-link";
 
 const About = () => {
   return (
@@ -31,6 +32,9 @@ const About = () => {
             On the weekends you'll catch me sipping a coffee, stuck in a good
             book or flying down the Welsh mountains on my bike!
           </p>
+          <button className="about__content-text-button">
+            <Link to="timeline">Timeline</Link>
+          </button>
         </div>
       </div>
     </div>
