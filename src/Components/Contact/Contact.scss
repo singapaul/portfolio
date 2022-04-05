@@ -50,7 +50,7 @@
       margin: 70px;
       height: 80%;
       box-shadow: 10px 10px $black;
-      max-width:500px;
+      max-width:600px;
       max-height: 563px;
       min-height: 392px;
       min-width: 257px;
@@ -94,10 +94,10 @@
         display: flex;
         justify-content: center;
         align-content: center;
-        width: 50%;
         margin: 70px;
         height: 80%;
         box-shadow: 10px 10px $black;
+        min-width: 407px;
       }
     }
 

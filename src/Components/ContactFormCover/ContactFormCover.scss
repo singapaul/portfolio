@@ -44,14 +44,14 @@
   &__question {
     color: $white;
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: $headingFont;
   }
 }
 
 @media screen and (min-width: 500px) {
   .contact-form-cover__email {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 }
 
