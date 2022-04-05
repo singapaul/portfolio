@@ -19,7 +19,7 @@ const LandingPage = () => {
 
   return (
     <>
-      <div className="landingPage">
+      <div id="landing" className="landingPage">
         <div className="landingPage__vanityCard">
           <p>Hi 👋, I'm...</p>
           <h1>Paul Hardman</h1>

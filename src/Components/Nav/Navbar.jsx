@@ -3,12 +3,12 @@ import useWindowSize from "../../hooks/useWindowSize.js";
 import { useState } from "react";
 import hamburger from "../../Assets/Graphics/hamburger-menu.svg";
 import cross from "../../Assets/Graphics/black-cross.png";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
 
   const windowIsDesktop = useWindowSize(1024);
-
 
   const handleClick = () => {
     setShowMenu(!showMenu);
@@ -20,45 +20,100 @@ const Navbar = () => {
   // Defining the desktop nav
   const desktopNav = (
     <ul className="navbar__links">
-      <a className="navbar__links-sectionLink" href="#projects">
+      <Link
+        to="portfolio/#projects"
+        className="navbar__links-sectionLink"
+        onClick={handleClick}
+      >
         Projects
-      </a>
-      <a className="navbar__links-sectionLink" href="#about">
+      </Link>
+
+      <Link
+        to="portfolio/#about"
+        className="navbar__links-sectionLink"
+        onClick={handleClick}
+      >
         About
-      </a>
-      <a className="navbar__links-sectionLink" href="#contact">
+      </Link>
+
+      <Link
+        to="portfolio/#contact"
+        className="navbar__links-sectionLink"
+        onClick={handleClick}
+      >
         Contact
-      </a>
-      <a className="navbar__links-sectionLink" href="timeline">
+      </Link>
+
+      <Link
+        to="portfolio/timeline"
+        className="navbar__links-sectionLink"
+        onClick={handleClick}
+      >
         Timeline
-      </a>
-      <a className="navbar__links-sectionLink" href="#contact">
+      </Link>
+      <Link
+        to="https://www.instagram.com/perspectivesfrompaul/"
+        className="navbar__links-sectionLink"
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={handleClick}
+      >
         Photography
-      </a>
+      </Link>
     </ul>
   );
 
   // Defining the mobile/tablet nav
   const mobileNav = (
     <ul className="navbar__links">
-      <a className="navbar__links-sectionLink" href="#hg" onClick={handleClick}> 
+      <Link
+        to="portfolio/#landing"
+        className="navbar__links-sectionLink"
+        onClick={handleClick}
+      >
         Home
-      </a>
-      <a className="navbar__links-sectionLink" href="#projects" onClick={handleClick}>
+      </Link>
+
+      <Link
+        to="portfolio/#projects"
+        className="navbar__links-sectionLink"
+        onClick={handleClick}
+      >
         Projects
-      </a>
-      <a className="navbar__links-sectionLink" href="#about" onClick={handleClick}>
+      </Link>
+
+      <Link
+        to="portfolio/#about"
+        className="navbar__links-sectionLink"
+        onClick={handleClick}
+      >
         About
-      </a>
-      <a className="navbar__links-sectionLink" href="#contact" onClick={handleClick}>
+      </Link>
+
+      <Link
+        to="portfolio/#contact"
+        className="navbar__links-sectionLink"
+        onClick={handleClick}
+      >
         Contact
-      </a>
-      <a className="navbar__links-sectionLink" href="timeline" onClick={handleClick}>
+      </Link>
+
+      <Link
+        to="portfolio/timeline"
+        className="navbar__links-sectionLink"
+        onClick={handleClick}
+      >
         Timeline
-      </a>
-      <a className="navbar__links-sectionLink" href="#contact" onClick={handleClick}>
+      </Link>
+      <Link
+        to="https://www.instagram.com/perspectivesfrompaul/"
+        className="navbar__links-sectionLink"
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={handleClick}
+      >
         Photography
-      </a>
+      </Link>
     </ul>
   );
 
@@ -66,9 +121,9 @@ const Navbar = () => {
     <>
       <div className={navbarClass}>
         <div className="navbar__container">
-          <a href="/portfolio" className="navbar__container-icon">
+          <Link className="navbar__container-icon" to="portfolio">
             PH
-          </a>
+          </Link>
           {windowIsDesktop ? (
             desktopNav
           ) : (
