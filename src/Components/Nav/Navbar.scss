@@ -125,6 +125,10 @@
           color: $yellow;
         }
 
+        &:nth-child(5):active{
+          color: $brown;
+        }
+
        
       }
     }
