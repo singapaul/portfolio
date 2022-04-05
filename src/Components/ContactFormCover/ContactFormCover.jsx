@@ -9,6 +9,7 @@ const ContactFormCover = ({ onClick }) => {
           <a href="mailto:paulmichaelhardman@gmail.com">LINE</a>
         </span>
       </h2>
+      <p>paulmichaelhardman@gmail.com</p>
     </div>
   );
 };
