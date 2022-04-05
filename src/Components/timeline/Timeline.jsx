@@ -101,7 +101,7 @@ const Timeline = () => {
             border: "solid black 4px",
           }}
           contentArrowStyle={{ borderRight: "10px solid black" }}
-          date="Sep 2019 - Aug 2020"
+          date={"Sep 2019 - Aug 2020"}
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={<img src={diageo} alt="" />}
           iconClassName={"timeline__element-icon"}
@@ -126,8 +126,7 @@ const Timeline = () => {
             border: "solid black 4px",
           }}
           contentArrowStyle={{ borderRight: "10px solid black" }}
-          date="Sept 2014 - July 2019"
-          iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          date={"Sept 2014 - July 2019"}
           icon={<img src={uob} alt="" />}
           iconClassName={"timeline__element-icon"}
         >
@@ -149,7 +148,7 @@ const Timeline = () => {
           }}
           contentArrowStyle={{ borderRight: "10px solid black" }}
           className="timeline__element"
-          date="Jul 2017 - Jun 2018"
+          date={"Jul 2017 - Jun 2018"}
           iconStyle={{ background: "#fff", color: "#fff" }}
           icon={<img src={jde} alt="" />}
           iconClassName={"timeline__element-icon"}
