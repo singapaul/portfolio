@@ -15,7 +15,6 @@
     text-align: left;
     font-family: $headingFont;
     font-size: 5rem;
-    wrap: break-word;
     color: $white;
 
     span {
@@ -37,12 +36,27 @@
     text-decoration: none;
   }
 
-  &__question{
+  &__email:hover {
+    color: $black;
+    border-bottom: 4px solid $black;
+  }
+
+  &__question {
     color: $white;
     font-weight: 600;
     font-size: 1.1rem;
     font-family: $headingFont;
   }
+}
 
+@media screen and (min-width: 500px) {
+  .contact-form-cover__email {
+    font-size: 1.5rem;
+  }
+}
 
+@media screen and (min-width: $desktop-breakpoint) {
+  .contact-form-cover__email {
+    font-size: 1.6rem;
+  }
 }
