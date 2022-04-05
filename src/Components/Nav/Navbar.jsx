@@ -15,7 +15,8 @@ const Navbar = () => {
   };
 
   const menuIcon = showMenu ? cross : hamburger;
-  const navbarClass = showMenu ? "navbar navbar--active" : "navbar";
+  const navbarClass = (showMenu && !windowIsDesktop) ? "navbar navbar--active" : "navbar";
+
 
   // Defining the desktop nav
   const desktopNav = (

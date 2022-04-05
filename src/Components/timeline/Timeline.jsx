@@ -3,6 +3,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import "./Timeline.scss";
 // import test from "../../Assets/images/paul.jpeg"
 // import test2 from "../../Assets/Graphics/black-cross.png";
 
@@ -11,7 +12,7 @@ const Timeline = () => {
     <>
       <VerticalTimeline className={"timeline"} lineColor={"black"}>
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="timeline__element"
           contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="Jan 2021 - present"
@@ -29,7 +30,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="timeline__element"
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="Sep 2021 - Jan 2022"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -46,7 +47,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="timeline__element"
           date="Sep 2020 - Aug 2021"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         >
@@ -65,7 +66,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="timeline__element"
           date="Sep 2019 - Aug 2020"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           // icon={<WorkIcon />}
@@ -83,7 +84,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--education"
+          className="timeline__element"
           date="Sept 2014 - July 2019"
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
         >
@@ -98,7 +99,7 @@ const Timeline = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="timeline__element"
           date="Jul 2017 - Jun 2018"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         >
@@ -110,17 +111,14 @@ const Timeline = () => {
           </h4>
           <p>
             Project and Operations Engineer.Led design of PLC software to
-            support a £500,000 capital project for a major plant
-            modification.Successfully led several change management engagements
-            in a highly unionized environment. Led commissioning process of
-            plant upgrade process, managing contractors, engineers, plant
-            stakeholders and strict deadlines to deliver project on time and
-            within budget.
+            support a £500,000 capital project for a major plant modification.
+            Led commissioning process of plant upgrade process, managing
+            contractors, engineers, plant stakeholders.
           </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
-          className="vertical-timeline-element--work"
+          className="timeline__element"
           date="June 2016 - Sept 2016"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           // icon={<WorkIcon />}
@@ -139,7 +137,21 @@ const Timeline = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
+          className="timeline__element"
+          date="June 2014"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          // icon={<WorkIcon />}
+        >
+          <h3 className="vertical-timeline-element-title">
+            A levels, Alun Schol{" "}
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Mold, Wales</h4>
+          <p>Chemistry (A*), Maths (A*), Physics (A).</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
           iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+          className="timeline__element"
         />
       </VerticalTimeline>
     </>
