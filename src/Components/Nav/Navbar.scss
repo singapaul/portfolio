@@ -6,7 +6,7 @@
   grid-area: 1/-1;
   padding: 1rem 2rem;
   background-color: white;
-  border-bottom: solid 5px black;
+  border-bottom: solid $border-height black;
   position: sticky;
   top: 0;
   z-index: 10;
@@ -93,6 +93,8 @@
       gap: 50px;
       height: 100%;
       margin: auto 0;
+      font-size: 0.7rem;
+      
 
       &-sectionLink {
         text-align: center;
@@ -139,29 +141,4 @@
   }
 }
 
-// .Navbar {
 
-//   &__links {
-
-//     &-sectionLink {
-//       display: inline;
-//       font-size: 1.5em;
-//       text-decoration: none;
-//       color: $black;
-//       margin: 0 3%;
-//       font-weight: 600;
-//     }
-//   }
-
-//   .Navbar__links a:nth-child(1):hover{
-//     color: $red;
-//   }
-
-//   .Navbar__links a:nth-child(2):hover{
-//     color: $blue;
-//   }
-
-//   .Navbar__links a:nth-child(3):hover{
-//     color: $green;
-//   }
-// }

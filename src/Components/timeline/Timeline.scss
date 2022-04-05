@@ -1,8 +1,27 @@
 @use "../../Assets/_variables.scss" as *;
 
 
-.timeline {
-  &__element {
-    
-  }
+
+.timeline__element-icon{
+  display: block;
+  border: black solid 3px;
+  box-shadow: none;
+  background-color:none;
+  object-fit: cover;
+  align-items: center;
+
+  img{width:100%;
+    border-radius:50%;
+  object-fit: cover;}
+
+}
+
+.vertical-timeline-element-content{
+  box-shadow: none;
+}
+
+.vertical-timeline-element-content{
+  font-family: $headingFont;
+
+  p{font-family: $bodyFont;}
 }

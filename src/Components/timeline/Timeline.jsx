@@ -4,7 +4,12 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import "./Timeline.scss";
-// import test from "../../Assets/images/paul.jpeg"
+import alun from "../../Assets/images/timeline/alun.jpeg";
+import diageo from "../../Assets/images/timeline/diageo.png";
+import jde from "../../Assets/images/timeline/jde2.png";
+import nology from "../../Assets/images/timeline/nology.jpeg";
+import uob from "../../Assets/images/timeline/uob2.jpeg";
+
 // import test2 from "../../Assets/Graphics/black-cross.png";
 
 const Timeline = () => {
@@ -13,11 +18,20 @@ const Timeline = () => {
       <VerticalTimeline className={"timeline"} lineColor={"black"}>
         <VerticalTimelineElement
           className="timeline__element"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="Jan 2021 - present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          // icon={<img src={test2} alt="" />}
+          contentStyle={{
+            background: "#4c926d",
+            color: "#fff",
+            border: "solid black 4px",
+          }}
+          contentArrowStyle={{ borderRight: "10px solid black" }}
+          date={"Jan 2021 - present"}
+          iconStyle={{
+            background: "#fff",
+            color: "#000000",
+            border: "1px solid black",
+          }}
+          icon={<img src={nology} alt="" />}
+          iconClassName={"timeline__element-icon"}
         >
           <h3 className="vertical-timeline-element-title">
             Software Engineering Trainee, nology
@@ -31,10 +45,16 @@ const Timeline = () => {
 
         <VerticalTimelineElement
           className="timeline__element"
-          contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+          contentArrowStyle={{ borderRight: "10px solid black" }}
+          contentStyle={{
+            background: "#fcd91f",
+            color: "#000000",
+            border: "solid black 4px",
+          }}
           date="Sep 2021 - Jan 2022"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          // icon={<img src={test2} alt="" />}
+          // iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={<img src={diageo} alt="" />}
+          iconClassName={"timeline__element-icon"}
         >
           <h3 className="vertical-timeline-element-title">
             Manufacturing Excellence Lead, Diageo
@@ -49,7 +69,15 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="timeline__element"
           date="Sep 2020 - Aug 2021"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          contentArrowStyle={{ borderRight: "10px solid black" }}
+          iconStyle={{ background: "#0078b5", color: "#fff" }}
+          contentStyle={{
+            background: "#fcd91f",
+            color: "#000000",
+            border: "solid black 4px",
+          }}
+          icon={<img src={diageo} alt="" />}
+          iconClassName={"timeline__element-icon"}
         >
           <h3 className="vertical-timeline-element-title">
             Supply Planner, Diageo
@@ -58,7 +86,7 @@ const Timeline = () => {
             Budapest, Hunagry
           </h4>
           <p>
-            Coordination of supply of imported products with manufacturing
+            Coordinator for supply of imported products with manufacturing
             plants, customer service and logistics team. Experience in inventory
             modelling, supply network reviews, digitization, crisis response,
             inventory rationalization.
@@ -67,9 +95,16 @@ const Timeline = () => {
 
         <VerticalTimelineElement
           className="timeline__element"
+          contentStyle={{
+            background: "#fcd91f",
+            color: "#000000",
+            border: "solid black 4px",
+          }}
+          contentArrowStyle={{ borderRight: "10px solid black" }}
           date="Sep 2019 - Aug 2020"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          icon={<img src={diageo} alt="" />}
+          iconClassName={"timeline__element-icon"}
         >
           <h3 className="vertical-timeline-element-title">
             Commercial Operations Analyst, Diageo
@@ -85,8 +120,16 @@ const Timeline = () => {
 
         <VerticalTimelineElement
           className="timeline__element"
+          contentStyle={{
+            background: "#f25230",
+            color: "#fff",
+            border: "solid black 4px",
+          }}
+          contentArrowStyle={{ borderRight: "10px solid black" }}
           date="Sept 2014 - July 2019"
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
+          icon={<img src={uob} alt="" />}
+          iconClassName={"timeline__element-icon"}
         >
           <h3 className="vertical-timeline-element-title">
             MEng Chemical Engineering 1st Class, University of Birmingham
@@ -99,9 +142,17 @@ const Timeline = () => {
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
+          contentStyle={{
+            background: "#392c35",
+            color: "#fff",
+            border: "solid black 4px",
+          }}
+          contentArrowStyle={{ borderRight: "10px solid black" }}
           className="timeline__element"
           date="Jul 2017 - Jun 2018"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "#fff", color: "#fff" }}
+          icon={<img src={jde} alt="" />}
+          iconClassName={"timeline__element-icon"}
         >
           <h3 className="vertical-timeline-element-title">
             Process Engineer, Jacobs Douwe Egberts
@@ -119,9 +170,16 @@ const Timeline = () => {
 
         <VerticalTimelineElement
           className="timeline__element"
+          contentArrowStyle={{ borderRight: "10px solid black" }}
+          contentStyle={{
+            background: "#f25230",
+            color: "#fff",
+            border: "solid black 4px",
+          }}
           date="June 2016 - Sept 2016"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          icon={<img src={uob} alt="" />}
+          iconClassName={"timeline__element-icon"}
         >
           <h3 className="vertical-timeline-element-title">Matlab Developer</h3>
           <h4 className="vertical-timeline-element-subtitle">
@@ -138,9 +196,16 @@ const Timeline = () => {
 
         <VerticalTimelineElement
           className="timeline__element"
-          date="June 2014"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          // icon={<WorkIcon />}
+          contentArrowStyle={{ borderRight: "10px solid black" }}
+          contentStyle={{
+            background: "#0078b5",
+            color: "#fff",
+            border: "solid black 4px",
+          }}
+          date={"June 2014"}
+          iconStyle={{ background: "#fcd91f", color: "#fff" }}
+          icon={<img src={alun} alt="" />}
+          iconClassName={"timeline__element-icon"}
         >
           <h3 className="vertical-timeline-element-title">
             A levels, Alun Schol{" "}
@@ -149,10 +214,7 @@ const Timeline = () => {
           <p>Chemistry (A*), Maths (A*), Physics (A).</p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement
-          iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
-          className="timeline__element"
-        />
+
       </VerticalTimeline>
     </>
   );
