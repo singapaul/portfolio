@@ -7,38 +7,29 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding: 30px;
+  padding: 25px;
 
   &__text {
-    margin-bottom: 20px;
     word-spacing: 100vw;
     text-align: left;
     font-family: $headingFont;
     font-size: 5rem;
     color: $white;
-
-    span {
-      a {
-        color: $white;
-        text-decoration: none;
-      }
-    }
   }
 
   &__email {
     font-family: $headingFont;
     color: $white;
     font-weight: 600;
-    font-size: 1.1rem;
-    border-bottom: 4px solid $white;
-    padding-bottom: 3px;
-    width: auto;
-    text-decoration: none;
+    font-size: 1.0rem;
+    overflow-wrap: break-word;
+    // border-bottom: 4px solid $white;
+    // text-decoration: none;
   }
 
   &__email:hover {
     color: $black;
-    border-bottom: 4px solid $black;
+    // border-bottom: 4px solid $black;
   }
 
   &__question {
