@@ -3,13 +3,17 @@ import "./ContactFormCover.scss";
 const ContactFormCover = ({ onClick }) => {
   return (
     <div onClick={onClick} className="contact-form-cover">
+      <p className="contact-form-cover__question">Interested?</p>
       <h2 className="contact-form-cover__text">
-        DROP ME A{" "}
-        <span>
-          <a href="mailto:paulmichaelhardman@gmail.com">LINE</a>
-        </span>
+        DROP ME A <span>LINE</span>
       </h2>
-      <p>paulmichaelhardman@gmail.com</p>
+      <a
+        className="contact-form-cover__email"
+        href="mailto:paulmichaelhardman@gmail.com"
+      >
+        {" "}
+        <p>paulmichaelhardman@gmail.com</p>
+      </a>
     </div>
   );
 };
