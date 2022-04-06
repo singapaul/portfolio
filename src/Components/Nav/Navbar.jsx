@@ -15,14 +15,14 @@ const Navbar = () => {
   };
 
   const menuIcon = showMenu ? cross : hamburger;
-  const navbarClass = (showMenu && !windowIsDesktop) ? "navbar navbar--active" : "navbar";
-
+  const navbarClass =
+    showMenu && !windowIsDesktop ? "navbar navbar--active" : "navbar";
 
   // Defining the desktop nav
   const desktopNav = (
     <ul className="navbar__links">
       <Link
-        to="portfolio/#projects"
+        to="/#projects"
         className="navbar__links-sectionLink"
         onClick={handleClick}
       >
@@ -30,7 +30,7 @@ const Navbar = () => {
       </Link>
 
       <Link
-        to="portfolio/#about"
+        to="/#about"
         className="navbar__links-sectionLink"
         onClick={handleClick}
       >
@@ -38,7 +38,7 @@ const Navbar = () => {
       </Link>
 
       <Link
-        to="portfolio/#contact"
+        to="/#contact"
         className="navbar__links-sectionLink"
         onClick={handleClick}
       >
@@ -46,7 +46,7 @@ const Navbar = () => {
       </Link>
 
       <Link
-        to="portfolio/timeline"
+        to="/timeline"
         className="navbar__links-sectionLink"
         onClick={handleClick}
       >
@@ -68,7 +68,7 @@ const Navbar = () => {
   const mobileNav = (
     <ul className="navbar__links">
       <Link
-        to="portfolio/#landing"
+        to="/#landing"
         className="navbar__links-sectionLink"
         onClick={handleClick}
       >
@@ -76,7 +76,7 @@ const Navbar = () => {
       </Link>
 
       <Link
-        to="portfolio/#projects"
+        to="/#projects"
         className="navbar__links-sectionLink"
         onClick={handleClick}
       >
@@ -84,7 +84,7 @@ const Navbar = () => {
       </Link>
 
       <Link
-        to="portfolio/#about"
+        to="/#about"
         className="navbar__links-sectionLink"
         onClick={handleClick}
       >
@@ -92,7 +92,7 @@ const Navbar = () => {
       </Link>
 
       <Link
-        to="portfolio/#contact"
+        to="/#contact"
         className="navbar__links-sectionLink"
         onClick={handleClick}
       >
@@ -100,7 +100,7 @@ const Navbar = () => {
       </Link>
 
       <Link
-        to="portfolio/timeline"
+        to="/timeline"
         className="navbar__links-sectionLink"
         onClick={handleClick}
       >
