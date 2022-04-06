@@ -22,7 +22,7 @@ const Timeline = () => {
             border: "solid black 4px",
           }}
           contentArrowStyle={{ borderRight: "10px solid black" }}
-          date={"Jan 2021 - present"}
+          date={"Jan 2022 - present"}
           iconStyle={{
             background: "#fff",
             color: "#000000",
