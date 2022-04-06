@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route
-            path="/portfolio"
+            path="/"
             element={
               <>
                 <LandingPage />
@@ -26,7 +26,7 @@ function App() {
             }
           />
           <Route
-            path="portfolio/timeline"
+            path="/timeline"
             element={
               <>
                 <Timeline />

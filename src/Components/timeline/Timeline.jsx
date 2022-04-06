@@ -10,8 +10,6 @@ import jde from "../../Assets/images/timeline/jde2.png";
 import nology from "../../Assets/images/timeline/nology.jpeg";
 import uob from "../../Assets/images/timeline/uob2.jpeg";
 
-// import test2 from "../../Assets/Graphics/black-cross.png";
-
 const Timeline = () => {
   return (
     <>
@@ -212,8 +210,6 @@ const Timeline = () => {
           <h4 className="vertical-timeline-element-subtitle">Mold, Wales</h4>
           <p>Chemistry (A*), Maths (A*), Physics (A).</p>
         </VerticalTimelineElement>
-
-
       </VerticalTimeline>
     </>
   );
