@@ -7,10 +7,10 @@ import Projects from "./Components/Projects/Projects";
 import Footer from "./Components/Footer/Footer";
 import Timeline from "./Components/timeline/Timeline";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+const baseURL = "/portfolio";
 function App() {
   return (
-    <Router>
+    <Router basename={baseURL}>
       <div className="App">
         <Navbar />
         <Routes>
