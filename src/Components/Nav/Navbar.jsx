@@ -4,6 +4,7 @@ import { useState } from "react";
 import hamburger from "../../Assets/Graphics/hamburger-menu.svg";
 import cross from "../../Assets/Graphics/black-cross.png";
 import { HashLink as Link } from "react-router-hash-link";
+import disableScroll from "disable-scroll";
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -12,6 +13,14 @@ const Navbar = () => {
 
   const handleClick = () => {
     setShowMenu(!showMenu);
+
+    if (showMenu && !windowIsDesktop) {
+      disableScroll.off();
+    }
+
+    if (!showMenu && windowIsDesktop) {
+      disableScroll.on();
+    }
   };
 
   const menuIcon = showMenu ? cross : hamburger;
