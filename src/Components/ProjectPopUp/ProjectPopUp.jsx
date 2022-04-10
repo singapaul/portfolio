@@ -2,10 +2,8 @@ import "./ProjectPopUp.scss";
 import React from "react";
 import { projectsData } from "../../Assets/Data/projectsData";
 
-
 const ProjectPopUp = ({ onClick, whichCard }) => {
   const currentCard = projectsData[whichCard];
-
 
   return (
     <div className="projectPopUp">
@@ -41,7 +39,6 @@ const ProjectPopUp = ({ onClick, whichCard }) => {
           </div>
         </div>
       </div>
-  
     </div>
   );
 };

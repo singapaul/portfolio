@@ -14,12 +14,12 @@ const Navbar = () => {
   const handleClick = () => {
     setShowMenu(!showMenu);
 
-    if (showMenu && !windowIsDesktop) {
-      disableScroll.off();
-    }
-
-    if (!showMenu && windowIsDesktop) {
+    if (!showMenu && !windowIsDesktop) {
       disableScroll.on();
+    } else if (!showMenu) {
+      disableScroll.off();
+    } else {
+      disableScroll.off();
     }
   };
 
@@ -131,7 +131,7 @@ const Navbar = () => {
     <>
       <div className={navbarClass}>
         <div className="navbar__container">
-          <Link className="navbar__container-icon" to="portfolio">
+          <Link className="navbar__container-icon" to="/">
             PH
           </Link>
           {windowIsDesktop ? (

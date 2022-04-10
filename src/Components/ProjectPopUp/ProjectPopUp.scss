@@ -10,7 +10,7 @@
   bottom: 0;
   z-index: 900;
   background-color: red;
-  position: fixed;
+  position: absolute;
   display: flex;
   flex-direction: column-reverse;
   justify-content: space-between;
@@ -184,9 +184,7 @@
 @media screen and (min-width: $desktop-breakpoint) {
   .projectPopUp {
     position: absolute;
-    z-index: 20;
-    align-self: center;
-    justify-self: center;
+    z-index: 20000;
     background-color: $white;
     border: solid 12px $black;
     height: 90%;
