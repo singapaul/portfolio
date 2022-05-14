@@ -4,7 +4,7 @@ import jscalc from "../../Assets/images/JScalc.png";
 import tetris from "../../Assets/images/tetris.png";
 import tickets from "../../Assets/images/tickets.png";
 import positivepup from "../../Assets/images/positivepup.png";
-import pending from "../../Assets/images/pending2.png";
+import stacked from "../../Assets/images/home-page.png";
 
 export const projectsData = [
   {
@@ -36,7 +36,8 @@ export const projectsData = [
       "https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white",
       "https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white",
       "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white",
-      "https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white","https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white"
+      "https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white",
+      "https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=mui&logoColor=white",
     ],
   },
 
@@ -83,7 +84,8 @@ export const projectsData = [
       "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
       "https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white",
       "https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white",
-      "https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white","https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white"
+      "https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white",
+      "https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white",
     ],
   },
 
@@ -91,9 +93,9 @@ export const projectsData = [
     id: 6,
     title: "The Positive Pup",
     description:
-      "An ongoing client project I am working on as part of an 8 person team to develop and build a fully redesigned website for a Chippenham based dog training company. During this project I will gain experience in pair programming, agile methodology, writing user stories and product ownership.",
-    github: "www.google.com",
-    site: "www.google.com",
+      "A client project I am worked on as part of an 8 person team to develop and build a fully redesigned website for a Chippenham based dog training company. During this project I gained experience in pair programming, agile methodology, writing user stories and product ownership.",
+    github: "https://github.com/nology-tech/positive-pup",
+    site: "https://nology-tech.github.io/positive-pup/",
     image: positivepup,
     techStack: [
       "https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB",
@@ -104,15 +106,19 @@ export const projectsData = [
   },
   {
     id: 7,
-    title: "Pending Java App",
-    description: "TBC",
-    github: "www.google.com",
-    site: "www.google.com",
-    image: pending,
+    title: "STCKD workout tracker",
+    description:
+      "Stacked (STCKD) is A CRUD app developed during week 12 of the nology bootcamp. The front end is build using React and it allows the user to view, post, update and delete their workouts. The back end is build with Java Spring, the API and database supporting the app are hosted with Google Cloud Platform (GCP).",
+    github: "https://github.com/singapaul/stacked",
+    site: "https://singapaul.github.io/stacked/",
+    image: stacked,
     techStack: [
+      "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB",
+      "https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white",
       "https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white",
       "https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white",
-      "https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white",
+      "https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white",
+      "https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white",
     ],
   },
 ];
