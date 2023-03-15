@@ -9,6 +9,7 @@ import diageo from "../../Assets/images/timeline/diageo.png";
 import jde from "../../Assets/images/timeline/jde2.png";
 import nology from "../../Assets/images/timeline/nology.jpeg";
 import uob from "../../Assets/images/timeline/uob2.jpeg";
+import ey from "../../Assets/images/timeline/ey2.jpeg";
 
 const Timeline = () => {
   return (
@@ -17,12 +18,39 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="timeline__element"
           contentStyle={{
+            background: "#392c35",
+            color: "#fff",
+            border: "solid black 4px",
+          }}
+          contentArrowStyle={{ borderRight: "10px solid black" }}
+          date={"Jun 2022 - present"}
+          iconStyle={{
+            background: "#fff",
+            color: "#000000",
+            border: "1px solid black",
+          }}
+          icon={<img src={ey} alt="" />}
+          iconClassName={"timeline__element-icon"}
+        >
+          <h3 className="vertical-timeline-element-title">
+            Full Stack software engineer, EY
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">London</h4>
+          <p>
+            Currently working as a full stack developer. Across web and mobile
+            projects including React, React Native, Next and Scala. Worked on
+            large scale public sector and healthcare delivery projects
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="timeline__element"
+          contentStyle={{
             background: "#4c926d",
             color: "#fff",
             border: "solid black 4px",
           }}
           contentArrowStyle={{ borderRight: "10px solid black" }}
-          date={"Jan 2022 - present"}
+          date={"Jan 2022 - April 2022"}
           iconStyle={{
             background: "#fff",
             color: "#000000",
@@ -36,8 +64,10 @@ const Timeline = () => {
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Remote</h4>
           <p>
-            Currently working as a nology full stack developer consultant. Stack
-            includes HTML, JavaScript, SASS, React, Java and Spring
+            A 12 week crash course in all things web. Learned UX/UI, Test driven
+            development and agile working processes. Built multiple apps in
+            JavaScript and Java and delivered a real life client project where I
+            took on the role of product owner
           </p>
         </VerticalTimelineElement>
 
@@ -87,7 +117,7 @@ const Timeline = () => {
             Coordinator for supply of imported products with manufacturing
             plants, customer service and logistics team. Experience in inventory
             modelling, supply network reviews, digitization, crisis response,
-            inventory rationalization.
+            inventory rationalization
           </p>
         </VerticalTimelineElement>
 
@@ -161,7 +191,7 @@ const Timeline = () => {
             Project and Operations Engineer.Led design of PLC software to
             support a £500,000 capital project for a major plant modification.
             Led commissioning process of plant upgrade process, managing
-            contractors, engineers, plant stakeholders.
+            contractors, engineers, plant stakeholders
           </p>
         </VerticalTimelineElement>
 
