@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ae882aa0.css",
-    "main.js": "/portfolio/static/js/main.ceeece72.js",
+    "main.js": "/portfolio/static/js/main.82f2feea.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/tickets.png": "/portfolio/static/media/tickets.7ca754f11e042b67ba24.png",
     "static/media/brewdawg3.png": "/portfolio/static/media/brewdawg3.80c3c94a81344b56858e.png",
@@ -13,6 +13,7 @@
     "static/media/jde2.png": "/portfolio/static/media/jde2.e2d53481c55fe7ca22ba.png",
     "static/media/contact.png": "/portfolio/static/media/contact.80406b8564ce0b3682fd.png",
     "static/media/alun.jpeg": "/portfolio/static/media/alun.a0c04d0781eff29752e3.jpeg",
+    "static/media/ey2.jpeg": "/portfolio/static/media/ey2.e250b5ea6636f8d97844.jpeg",
     "static/media/uob2.jpeg": "/portfolio/static/media/uob2.20f985bef43bb3926f2f.jpeg",
     "static/media/diageo.png": "/portfolio/static/media/diageo.bffd35caf020c0b1365a.png",
     "static/media/landing.svg": "/portfolio/static/media/landing.335bfa1411ac232b3570dbd55fc4889a.svg",
@@ -20,11 +21,11 @@
     "static/media/about.svg": "/portfolio/static/media/about.4f3eb36ec46885689e5e989e8d8dd883.svg",
     "static/media/hamburger-menu.svg": "/portfolio/static/media/hamburger-menu.282efe67ddd1e22bcb10adac968693b3.svg",
     "main.ae882aa0.css.map": "/portfolio/static/css/main.ae882aa0.css.map",
-    "main.ceeece72.js.map": "/portfolio/static/js/main.ceeece72.js.map",
+    "main.82f2feea.js.map": "/portfolio/static/js/main.82f2feea.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ae882aa0.css",
-    "static/js/main.ceeece72.js"
+    "static/js/main.82f2feea.js"
   ]
 }
